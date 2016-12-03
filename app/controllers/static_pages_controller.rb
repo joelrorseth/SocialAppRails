@@ -4,4 +4,8 @@ class StaticPagesController < ApplicationController
 
   def help
   end
+  
+  # Add an about action
+  def about
+  end
 end
