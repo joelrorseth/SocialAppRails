@@ -1,11 +1,20 @@
+#
+#  static_pages_controller.rb
+#  Defines a controller and its associated actions
+#
+
 class StaticPagesController < ApplicationController
+  
+  # Define actions for this controller
   def home
   end
 
   def help
   end
   
-  # Add an about action
   def about
+  end
+  
+  def contact
   end
 end
